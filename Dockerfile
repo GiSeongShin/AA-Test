@@ -9,7 +9,7 @@
 # 2. Run Stage
 # FROM openjdk:17-jdk-slim
 FROM cepgbaseacr.azurecr.io/docker.io/openjdk:17-slim
-WORKDIR /app
+# WORKDIR /app
 # COPY --from=build /app/target/*.jar app.jar
-COPY /app/target/*.jar app.jar
+COPY target/*.jar app.jar
 ENTRYPOINT ["java", "-jar", "app.jar"]
