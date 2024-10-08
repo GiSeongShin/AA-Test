@@ -4,7 +4,7 @@ FROM cepgbaseacr.azurecr.io/docker.io/openjdk:17-slim AS build
 WORKDIR /app
 COPY pom.xml .
 COPY src ./src
-RUN mvnw clean package -DskipTests
+RUN ./mvnw clean package -DskipTests
 
 # 2. Run Stage
 # FROM openjdk:17-jdk-slim
