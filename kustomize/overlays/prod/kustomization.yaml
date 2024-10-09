@@ -1,7 +1,7 @@
 configMapGenerator:
 - files:
   - application.yml
-  name: "82236720-configmap"
+  name: 82236720-configmap
 resources:
 - ../../base
 - pvc.yaml
@@ -13,4 +13,5 @@ kind: Kustomization
 namePrefix: prod-
 images:
 - name: ceappacr.azurecr.io/82236720
-  newTag: "202408090453"
+  newTag: "202410091608"
+- name: ceappacr.azurecr.io/my-spring-boot-app-82236720
