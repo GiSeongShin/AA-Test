@@ -13,5 +13,5 @@ kind: Kustomization
 namePrefix: prod-
 images:
 - name: ceappacr.azurecr.io/82236720
-  newTag: "202410091608"
+  newTag: "202410091621"
 - name: ceappacr.azurecr.io/my-spring-boot-app-82236720
