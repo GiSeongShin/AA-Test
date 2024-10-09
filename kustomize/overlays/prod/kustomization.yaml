@@ -15,6 +15,3 @@ images:
 - name: ceappacr.azurecr.io/82236720
   newTag: "202410091608"
 - name: ceappacr.azurecr.io/my-spring-boot-app-82236720
-  newTag: "202410091604"
-- name: cepgstapacr.azurecr.io/82236720
-  newTag: "202408090453"
